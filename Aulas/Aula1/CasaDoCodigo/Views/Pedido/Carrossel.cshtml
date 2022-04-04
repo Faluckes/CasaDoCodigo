@@ -44,7 +44,7 @@
                                     <div><h4><strong>@(produto.Preco)</strong></h4></div>
                                     <div class="text-center">
                                         <a asp-action="carrinho"
-                                        asp-route-codigo="@produto.Codigo"
+                                        asp-route-codigo="@(produto.Codigo)"
                                         class="btn btn-success">Adicionar</a>
                                     </div>
                                 </div>
@@ -66,3 +66,4 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+</div>
