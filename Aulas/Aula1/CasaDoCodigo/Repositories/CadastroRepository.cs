@@ -13,5 +13,7 @@ namespace CasaDoCodigo.Repositories
         public CadastroRepository(ApplicationContext contexto) : base(contexto)
         {
         }
+
+
     }
 }
